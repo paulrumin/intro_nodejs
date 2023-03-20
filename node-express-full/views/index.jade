@@ -1,5 +1,8 @@
-extends layout
+//extends layout
 
-block content
-  h1= title
-  p Welcome to #{title}
+doctype
+html
+    head
+        title= title
+    body
+        h1.my-class.other-class #{title}
